@@ -1,0 +1,11 @@
+{
+  "name": "tugas-10-nodered-codespaces",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node-RED Dashboard MQTT tugas IoT pertemuan 10",
+  "scripts": { "start": "bash scripts/mulai.sh --restart", "check": "python3 scripts/cek_berkas.py" },
+  "dependencies": {
+    "node-red": "^4.1.0",
+    "node-red-dashboard": "3.6.6"
+  }
+}
